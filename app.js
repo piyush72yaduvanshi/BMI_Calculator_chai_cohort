@@ -26,8 +26,8 @@ btn.addEventListener('click', () => {
         resultText.innerText = "Your BMI Result";
         result1.innerText = result;
         result2.innerText = "Overweight";
-        result1.style.color = "orange";
-        result2.style.color = "orange";
+        result1.style.color = "red";
+        result2.style.color = "red";
     }else{
         resultText.innerText = "Your BMI Result";
         result1.innerText = result;
